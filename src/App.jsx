@@ -156,7 +156,7 @@ function App() {
             <p className="hero-intro">
               By the grace of Allah (SWT), we invite you to join us in
               celebrating the Walima of
-            </p>
+            </p>In the warmth of family
             <div className="couple-names">
               <span>Mahafuz Khan</span>
               <i>&amp;</i>
@@ -189,17 +189,6 @@ function App() {
           <div className="family-grid">
             <article className="family-card">
               <FloralMark className="floral-mark" />
-              <p className="family-label">The Bride</p>
-              <h3>Tuba Mujawar</h3>
-              <span className="family-divider" />
-              <p className="family-caption">Daughter of</p>
-              <p className="family-parent">Sajid Mujawar</p>
-              <span className="family-ampersand">&amp;</span>
-              <p className="family-parent">Shabana Mujawar</p>
-              <p className="family-dua arabic">بَارَكَ اللهُ لَهَا وَعَلَيْهَا</p>
-            </article>
-            <article className="family-card">
-              <FloralMark className="floral-mark" />
               <p className="family-label">The Groom</p>
               <h3>Mahafuz Khan</h3>
               <span className="family-divider" />
@@ -209,6 +198,18 @@ function App() {
               <p className="family-parent">Shahanabano Khan</p>
               <p className="family-dua">With love and duas</p>
             </article>
+            <article className="family-card">
+              <FloralMark className="floral-mark" />
+              <p className="family-label">The Bride</p>
+              <h3>Tuba Mujawar</h3>
+              <span className="family-divider" />
+              <p className="family-caption">Daughter of</p>
+              <p className="family-parent">Sajid Mujawar</p>
+              <span className="family-ampersand">&amp;</span>
+              <p className="family-parent">Shabana Mujawar</p>
+              <p className="family-dua arabic">بَارَكَ اللهُ لَهَا وَعَلَيْهَا</p>
+            </article>
+            
           </div>
         </section>
 
@@ -287,7 +288,7 @@ function App() {
             <ArrowUpRight size={14} />
           </a>
           <Ornament />
-          <p className="closing-names">Tuba &amp; MaAssalamu Alaikum Wa Rahmatullahi Wa Barakatuhuhafuz</p>
+          {/* <p className="closing-names">Tuba &amp; MaAssalamu Alaikum Wa Rahmatullahi Wa Barakatuhuhafuz</p> */}
           <p className="closing-footer">With duas and love, always</p>
         </section>
 

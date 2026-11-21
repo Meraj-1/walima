@@ -158,9 +158,9 @@ function App() {
               celebrating the Walima of
             </p>
             <div className="couple-names">
-              <span>Tuba Mujawar</span>
-              <i>&amp;</i>
               <span>Mahafuz Khan</span>
+              <i>&amp;</i>
+              <span>Tuba Mujawar</span>
             </div>
             <p className="arabic blessing">بَارَكَ اللهُ لَكُمَا</p>
             <p className="blessing-translation">May Allah bless you both</p>
@@ -287,7 +287,7 @@ function App() {
             <ArrowUpRight size={14} />
           </a>
           <Ornament />
-          <p className="closing-names">Tuba &amp; Mahafuz</p>
+          <p className="closing-names">Tuba &amp; MaAssalamu Alaikum Wa Rahmatullahi Wa Barakatuhuhafuz</p>
           <p className="closing-footer">With duas and love, always</p>
         </section>
 
